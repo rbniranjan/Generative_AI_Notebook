@@ -1,0 +1,11 @@
+gradio
+langchain
+langchain-community
+langchain-text-splitters
+langchain-core
+langchain-huggingface
+langchain-classic
+chromadb
+sentence-transformers
+pypdf
+huggingface_hub
