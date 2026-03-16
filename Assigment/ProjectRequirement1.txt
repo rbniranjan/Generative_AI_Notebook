@@ -1,0 +1,118 @@
+Assignment 1
+Gen-AI Developers
+Bronze Badge
+This assignment consists of total 4 problems of ML and 1 project for LLM+RAG. Please do all the assignments as your own, don’t copy it from GPT. There will be a presentation one to one for the project or assignment also.
+Problem Statement
+
+A company wants to predict employee productivity scores to improve workforce planning and training programs. You are hired as a Data Scientist to build a multivariate linear regression model that predicts an employee’s Productivity Score based on multiple work-related factors.
+Experience (yrs),Training Hours,Working Hours,Projects,Productivity Score
+
+2,40,38,3,62
+5,60,42,6,78
+1,20,35,2,55
+8,80,45,8,88
+4,50,40,5,72
+10,90,48,9,92
+3,30,37,4,65
+6,70,44,7,82
+7,75,46,7,85
+2,25,36,3,60
+
+Interpretation
+Which factor most strongly impacts productivity?
+How does training affect productivity?
+Should the company increase training hours or working hours?
+What happens if Working Hours increase beyond optimal limits?
+Can productivity ever decrease with more experience?
+How would you detect overfitting in this model?
+Suggest one new feature to improve prediction accuracy.
+ 
+
+
+Problem Statement
+ 
+A financial institution wants to predict whether a customer will default on a loan before approving it. Early identification of risky customers helps reduce financial loss.
+You are working as a Machine Learning Analyst and must build a classification model using the K-Nearest Neighbors (KNN) algorithm to predict loan default.
+
+This case introduces:
+Mixed feature types
+Financial risk interpretation
+Class imbalance awareness
+Age,AnnualIncome(lakhs),CreditScore(300-900), LoanAmount(lakhs), LoanTerm(years), EmploymentType, loan(yes/no)
+28,6.5,720,5,5,Salaried,0
+45,12,680,10,10,Self-Employed,1
+35,8,750,6,7,Salaried,0
+50,15,640,12,15,Self-Employed,1
+30,7,710,5,5,Salaried,0
+42,10,660,9,10,Salaried,1
+26,5.5,730,4,4,Salaried,0
+48,14,650,11,12,Self-Employed,1
+38,9,700,7,8,Salaried,0
+55,16,620,13,15,Self-Employed,1
+ 
+Interpretation
+Identify high-risk customers.
+What patterns lead to loan default?
+How do credit score and income influence predictions?
+Suggest banking policies based on model output.
+Compare KNN with Decision Trees for this problem.
+What happens if LoanAmount dominates distance calculation?
+Should KNN be used in real-time loan approval systems?
+ 
+Problem Statement
+ 
+Write a Python program to draw (visualize) the architecture of a Neural Network used to classify fraudulent and non-fraudulent credit card transactions.
+ 
+Assume the fraud detection dataset contains the following input features:
+ 
+TransactionAmount
+TransactionTime
+MerchantCategory
+CustomerAge
+AccountBalance
+NumberOfTransactionsToday
+Fraud (0 = Genuine, 1 = Fraud)
+ 
+Problem Statement
+ 
+Write a Python program to draw a 3D plot that visualizes the regression model for house price prediction using suitable Python-based 3D plotting libraries.
+ 
+Assume the following features were used:
+Area (sq ft)
+Number of Bedrooms
+House Price
+ 
+ 
+ 
+ 
+Problem 5- PROJECT + Presentation
+ 
+This is the case; you must develop using LLM and RAG. After submission you people must present to some of the panel members.
+ 
+ 
+Use case: “Policy & Claims Copilot” (Customer support + Claims pre-check)
+Goal - Help customers, agents, and claims teams get instant, consistent answers about:
+what’s covered / not covered
+limits & sub-limits
+waiting periods
+claim submission steps + timelines
+documents needed
+…and also do a pre-check of a claim scenario before submission.
+This reduces call center load, speeds claim filing, and improves first-time-right submissions.
+ 
+Why RAG is needed (vs plain LLM)
+A plain LLM might “guess” policy terms. With RAG, the assistant:
+retrieves the exact relevant clauses from the policy PDF
+answers using only those clauses
+quotes/links the source section/page (grounded response)
+
+
+
+6500 meter Plot number 6556 (C-7 Phase 2 . C-21 Ganga Seed () , AMD 1000000 (Mata JI), 15 Lakh, 9375080, UPSeed ke GS10, 
+
+
+
+
+ 
+1800 + 1800 (
+Plot No. 
